@@ -85,7 +85,9 @@ h4{
 /* SECTION TWO STARTS HERE */
 .section2 {
   background-color: #ffffff;
-  padding: 40px 20px;
+  /* padding: 40px 20px; */
+  width: 100%;
+  height: 600px;
 }
 
 .feat {
@@ -101,23 +103,29 @@ h4{
 }
 
 .bg-shape {
-  width: 400px;
+  width: 700px;
   height: 350px;
   margin-left: -550px;
-  margin-top: -280px;
+  margin-bottom: 500px;
+  margin-top: 0;
+}
+.phone{
+  position: absolute;
+  top: 25%;
+  left: 30%; 
+   transform: translate(-50%, -55%);
+  width: 250px;
+  height: auto; 
+  
+
 }
 
-.phone {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -55%);
-  width: 250px;
-  height: auto;
-}
 
 .features {
   max-width: 600px;
+  margin-bottom: 300px;
+  
+  
 }
 .features h2 {
   font-size: 28px;
@@ -196,13 +204,13 @@ h4{
     justify-content: center;
 }
 
-.phone{
+.set{
     background-color: #CBFFD0;
     margin-left: 320px;
-    margin-top: 60px;
+    margin-top: 120px;
     width: 700px;
     height: 200px;
-    top:2647px;
+    top:2447px;
     left: 720px;
     border-top-left-radius: 300px;
     border-top-right-radius: 300px;
